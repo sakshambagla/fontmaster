@@ -1,0 +1,361 @@
+/*
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/*        
+Font Style Sheets (f) v1.0 developed by Saksham Bagla, India.
+copyright 2016 Saksham Bagla
+this program is distributed under the terms of the GNU General Public License
+*/
+
+body{font-family: serif;}
+
+/*        common fonts         */
+.f0{font-family: helvetica;}
+.f1{font-family: arial;}
+.f2{font-family: comic sans;}
+.f3{font-family: courier new;}
+.f4{font-family: georgia;}
+.f5{font-family: impact;}
+.f6{font-family: palatino;}
+.f7{font-family: tohoma;}
+.f8{font-family: times new roman;}
+.f9{font-family: trebuchet;}
+.f10{font-family: verdana;}
+.f11{font-family: cursive;}
+.f12{font-family: fantasy;}
+.f13{font-family: sans-serif;}
+.f14{font-family: serif;}
+.f15{font-family: monospace;}
+
+/*        windows fonts       */
+.f16{font-family: monospace;}
+.f17{font-family: sans-serif;}
+.f18{font-family: fantasy;}
+.f19{font-family: serif;}
+.f20{font-family: arial;}
+.f21{font-family: arial black;}
+.f22{font-family: calibri;}
+.f23{font-family: calisto mt;}
+.f24{font-family: cambria;}
+.f25{font-family: cambria math;}
+.f26{font-family: candara;}
+.f27{font-family: century gothic;}
+.f28{font-family: comic sans;}
+.f29{font-family: consolas;}
+.f30{font-family: constantia;}
+.f31{font-family: copperplate gothic;}
+.f32{font-family: corbel;}
+.f33{font-family: courier new;}
+.f34{font-family: daunpenh;}
+.f35{font-family: david;}
+.f36{font-family: dotum;}
+.f37{font-family: estrngelo edessa;}
+.f38{font-family: euphemia;}
+.f39{font-family: franklin gothic;}
+.f40{font-family: georgia;}
+.f41{font-family: impact;}
+.f42{font-family: lucida console;}
+.f43{font-family: malgun gothic;}
+.f44{font-family: microsoft jhenghei;}
+.f45{font-family: microsoft yahei;}
+.f46{font-family: microsfot mingliu;}
+.f47{font-family: news gothic;}
+.f48{font-family: palatino;}
+.f49{font-family: tohoma;}
+.f50{font-family: times new roman;}
+.f51{font-family: trebuchet ms;}
+.f52{font-family: verdana;}
+.f53{font-family: cursive;}
+
+/*       mac osX fonts        */
+.f54{font-family: al bayan;}
+.f55{font-family: american typewriter;}
+.f56{font-family: andale mono;}
+.f57{font-family: apple chancery;}
+.f58{font-family: apple garamond;}
+.f59{font-family: apple gothic;}
+.f60{font-family: apple ligothic;}
+.f61{font-family: apple lisung;}
+.f62{font-family: apple myungjo;}
+.f63{font-family: apple symbols;}
+.f64{font-family: arial;}
+.f65{font-family: arial hebrew;}
+.f66{font-family: baghbad;}
+.f67{font-family: baskerville;}
+.f68{font-family: beijing;}
+.f69{font-family: biaukai;}
+.f70{font-family: big caslon;}
+.f71{font-family: brush script;}
+.f72{font-family: chalk board;}
+.f73{font-family: charcoal;}
+.f74{font-family: chicago;}
+.f75{font-family: comic sans;}
+.f76{font-family: cooper;}
+.f77{font-family: copperplate;}
+.f78{font-family: corsiva;}
+.f79{font-family: courier;}
+.f80{font-family: courier new;}
+.f81{font-family: devanagri;}
+.f82{font-family: didot;}
+.f83{font-family: fang song;}
+.f84{font-family: futura;}
+.f85{font-family: gadget;}
+.f86{font-family: geeza pro;}
+.f87{font-family: geezah;}
+.f88{font-family: geneva;}
+.f89{font-family: geneva cy;}
+.f90{font-family: georgia;}
+.f91{font-family: gill sans;}
+.f92{font-family: gujrati;}
+.f93{font-family: gung seouche;}
+.f94{font-family: hangangche;}
+.f95{font-family: headlinea;}
+.f96{font-family: hei;}
+.f97{font-family: helvetica;}
+.f98{font-family: helvetica cy;}
+.f99{font-family: helvetica neue;}
+.f100{font-family: herculanum;}
+.f101{font-family: hiragino;}
+.f102{font-family: hiragino maru gothic pro;}
+.f103{font-family: hiragino mincho pro;}
+.f104{font-family: hoefler text;}
+.f105{font-family: impact;}
+.f106{font-family: jung gothic;}
+.f107{font-family: kai;}
+.f108{font-family: lihei pro;}
+.f109{font-family: lisong pro;}
+.f110{font-family: lucida grande;}
+.f111{font-family: marker felt;}
+.f112{font-family: monaco;}
+.f113{font-family: monaco cy;}
+.f114{font-family: new peninim;}
+.f115{font-family: new york;}
+.f116{font-family: optima;}
+.f117{font-family: osaka;}
+.f118{font-family: palatino;}
+.f119{font-family: pcmyungjo pc;}
+.f120{font-family: pilgi;}
+.f121{font-family: plantagenet cherokee cwy;}
+.f122{font-family: raanana;}
+.f123{font-family: sand;}
+.f124{font-family: seoul;}
+.f125{font-family: shin myungjo neue;}
+.f126{font-family: skia;}
+.f127{font-family: song;}
+.f128{font-family: stfangsong;}
+.f129{font-family: stheiti;}
+.f130{font-family: stkaiti;}
+.f131{font-family: stsong;}
+.f132{font-family: symbol;}
+.f133{font-family: taegraphic;}
+.f134{font-family: tohoma;}
+.f135{font-family: techno;}
+.f136{font-family: textile;}
+.f137{font-family: times;}
+.f138{font-family: times cy;}
+.f139{font-family: times new roman;}
+.f140{font-family: trebuchet;}
+.f141{font-family: verdana;}
+.f142{font-family: zapf chancery;}
+.f143{font-family: zapf dingbats;}
+.f144{font-family: zaptino;}
+.f145{font-family: serif;}
+.f146{font-family: cursive;}
+.f147{font-family: fantasy;}
+.f148{font-family: sans-serif;}
+.f149{font-family: monospace;}
+
+/*        colors        */
+.lightpink{color:lightpink;}
+.pink{color: pink;}
+.hotpink{color:hotpink;}
+.deeppink{color:deeppink;}
+.palevioletred{color:palevioletred;}
+.mediumvioletred{color:mediumvioletred;}
+
+.lightsalmon{color:lightsalmon;}
+.salmon{color:salmon;}
+.darksalmon{color:darksalmon;}
+.lightcoral{color:lightcoral;}
+.indianred{color:indianred;}
+.crimson{color:crimson;}
+.firebrick{color:firebrick;}
+.darkred{color:darkred;}
+.red{color:red;}
+
+.orangered{color:orangered;}
+.tomato{color:tomato;}
+.coral{color:coral;}
+.darkorange{color:darkorange;}
+.orange{color:orange;}
+
+.lightyellow{color:lightyellow;}
+.yellow{color: yellow;}
+.lemonchiffon{color:lemonchiffon;}
+.lightgoldenrodyellow{color:lightgoldenrodyellow;}
+.papayawhip{color:papayawhip;}
+.moccasic{color:moccasin;}
+.peachpuff{color:peachpuff;}
+.palegoldenrod{color:palegoldenrod;}
+.khaki{color:khaki;}
+.darkkhaki{color:darkkhaki;}
+.gold{color:gold;}
+
+.cornsilk{color:cornsilk;}
+.blanchedalmond{color:blanchedalmond;}
+.bisque{color:bisque;}
+.navajowhite{color:navajowhite;}
+.wheat{color:wheat;}
+.burlywood{color:burlywood;}
+.tan{color:tan;}
+.rosybrown{color:rosybrown;}
+.sandybrown{color:sandybrown;}
+.goldenrod{color:goldenrod;}
+.darkgoldenrod{color:darkgoldenrod;}
+.peru{color:peru;}
+.chocolate{color:chocolate;}
+.saddlebrown{color:saddlebrown;}
+.sienna{color:sienna;}
+.brown{color:brown;}
+.maroon{color:maroon;}
+
+.darkolivegreen{color:darkolivegreen;}
+.olive{color:olive;}
+.olivedrab{color:olivedrab;}
+.yellowgreen{color:yellowgreen;}
+.limegreen{color:limegreen;}
+.lime{color:lime;}
+.lawngreen{color:lawngreen;}
+.chartreuse{color:chartreuse;}
+.greenyellow{color:greenyellow;}
+.springgreen{color:springgreen;}
+.mediumspringgreen{color:mediumspringgreen;}
+.lightgreen{color:lightgreen;}
+.palegreen{color:palegreen;}
+.darkseagreen{color: darkseagreen;}
+.mediumaquamarine{color:mediumaquamarine;}
+.mediumseagreen{color:mediumseagreen;}
+.seagreen{color:seagreen;}
+.forestgreen{color:forestgreen;}
+.green{color:green;}
+.darkgreen{color:darkgreen;}
+
+.cyan{color:cyan;}
+.aqua{color:aqua;}
+.lightcyan{color:lightcyan;}
+.paleturquoise{color:paleturquoise;}
+.turquoise{color:turquoise;}
+.mediumturquoise{color:mediumturquoise;}
+.darkturquoise{color:darkturquoise;}
+.lightseagreen{color:lightseagreen;}
+.cadetblue{color:cadetblue;}
+.darkcyan{color:darkcyan;}
+.teal{color:teal;}
+
+.lightsteelblue{color:lightsteelblue;}
+.powderblue{color:powderblue;}
+.lightblue{color:lightblue;}
+.skyblue{color:skyblue;}
+.lightskyblue{color:lightskyblue;}
+.deepskyblue{color:deepskyblue;}
+.dodgerblue{color:dodgerblue;}
+.cornflowerblue{color:cornflowerblue;}
+.steelblue{color:steelblue;}
+.royalblue{color:royalblue;}
+.navy{color:navy;}
+.midnightblue{color:midnightblue;}
+.lavender{color:lavender;}
+.thistle{color:thistle;}
+.plum{color:plum;}
+.violet{color:violet;}
+.orchid{color:orchid;}
+.fuchsia{color:fuchsia;}
+.magenta{color:magenta;}
+.mediumorchid{color:mediumorchid;}
+.mediumpurple{color:mediumpurple;}
+.blueviolet{color:blueviolet;}
+.darkviolet{color:darkviolet;}
+.darkorchid{color:darkorchid;}
+.darkmagenta{color:darkmagenta;}
+.purple{color:purple;}
+.indigo{color:indigo;}
+.darkslateblue{color:darkslateblue;}
+.slateblue{color:slateblue;}
+.mediumslateblue{color:mediumslateblue;}
+
+.white{color:white;}
+.snow{color:snow;}
+.honeydew{color:honeydew;}
+.mintcream{color:mintcream;}
+.azure{color:azure;}
+.aliceblue{color:aliceblue;}
+.ghostwhite{color:ghostwhite;}
+.whitesmoke{color:whitesmoke;}
+.seashell{color:seashell;}
+.beige{color:beige;}
+.oldlace{color:oldlace;}
+.floralwhite{color:floralwhite;}
+.ivory{color:ivory;}
+.antiquewhite{color:antiquewhite;}
+.linen{color:linen;}
+.lavenderblush{color:lavenderblush;}
+.mistyrose{color:mistyrose;}
+
+.silver{color:silver;}
+.lightgray{color:lightgray;}
+.gainsboro{color:gainsboro;}
+.darkgray{color:darkgray;}
+.gray{color:gray;}
+.dimgray{color:dimgray;}
+.lightslategray{color:lightslategray;}
+.black{color:black;}
+.grey{color:grey;}
+.slategray{color:slategray;}
+.darkslategray{color:darkslategray;}
+.lightgrey{color:lightgrey;}
+.dimgrey{color:dimgrey;}
+.darkgrey{color:darkgrey;}
+.darkslate{color:darkslategrey;}
+.slategrey{color:slategrey;}
+.lightslategrey{color:lightslategrey;}
+
+/*        font weight        */
+.bold{font-weight: bold;}
+.bolder{font-weight: bolder;}
+.lighter{font-weight: lighter;}
+
+/*        font style        */
+.italic{font-style: italic;}
+.oblique{font-style: oblique;}
+
+/*      font stretch      */
+.ultra-condensed{font-stretch: ultra-condensed;} 
+.extra-condensed{font-stretch: extra-condensed;} 
+.condensed{font-stretch: condensed;} 
+.semi-condensed{font-stretch: semi-condensed;} 
+.expanded{font-stretch: expanded;} 
+.extra-expanded{font-stretch: extra-expanded;} 
+.ultra-expanded{font-stretch: ultra-expanded;} 
+.semi-expanded{font-stretch: semi-expanded;}
+
+/*        font size       */
+.medium{font-size: medium;}
+.xx-small{font-size: xx-small;}
+.x-small{font-size: x-small;}
+.small{font-size: small;}
+.large{font-size: large;}
+.x-large{font-size: x-large;}
+.xx-large{font-size: xx-large;}
+.smaller{font-size: smaller;}
+.larger{font-size: larger;}
